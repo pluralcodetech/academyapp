@@ -1,0 +1,59 @@
+{
+  "name": "PluralCodeAcademy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "android-release": "npx react-native run-android --variant=release",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "code-push-u": "appcenter codepush release-react -a Hakym/pluralcodeacademy -m -d Production -t 1.1"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/progress-bar-android": "^1.0.4",
+    "@react-navigation/bottom-tabs": "^5.11.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "appcenter-file-upload-client": "0.0.24",
+    "expo-image-picker": "^10.2.2",
+    "form-data": "^4.0.0",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-code-push": "^7.0.1",
+    "react-native-file-viewer": "^2.1.4",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-onesignal": "^4.2.0",
+    "react-native-paystack-popup": "^1.0.0",
+    "react-native-paystack-webview": "^3.2.1",
+    "react-native-pdf": "^6.3.0",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.4.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-unimodules": "^0.14.4",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-webview": "^10.10.2",
+    "react-native-youtube-iframe": "^2.1.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "rn-fetch-blob": "^0.12.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/runtime": "^7.14.6",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.29.0",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
